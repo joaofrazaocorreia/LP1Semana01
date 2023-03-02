@@ -6,6 +6,11 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
+
+
+
             string favAnimal= "My favorite animal are... \n ...sheep! \u263c";
 
             string verbatimA= @"My favorite animal are... \n ... sheep! \u263c";
@@ -14,6 +19,16 @@ namespace VariasStrings
 
             string verbParagraph= @"\n ------------------------------- \t:D\n";
 
+            
+            Console.WriteLine(paragraph);
+
+            Console.WriteLine(favAnimal);
+
+            Console.WriteLine(verbatimA);
+
+            Console.WriteLine(verbParagraph);
+
+/// ----------------------------------------------------------------------------------------
 
             string def= "D E" + " F ";
             string abc= "A B C " + def;
@@ -34,15 +49,6 @@ namespace VariasStrings
             string last=String.Format("Beware of {0}!", animal3);
 
 
-            Console.WriteLine(paragraph);
-
-            Console.WriteLine(favAnimal);
-
-            Console.WriteLine(verbatimA);
-
-            Console.WriteLine(verbParagraph);
-
-
             Console.WriteLine("\n\n\n");
 
             Console.WriteLine(abc);
@@ -57,6 +63,16 @@ namespace VariasStrings
             Console.WriteLine(format);
 
             Console.WriteLine(last);
+
+/// ----------------------------------------------------------------------------------------
+
+            Console.WriteLine($"\n{paragraph}\n");
+
+            Console.WriteLine($"Real: {xx:f2}");
+            Console.WriteLine($"Percent: {xx:p1}");
+
+            Console.WriteLine($"Hexadecimal: {ii:x}");
+            Console.WriteLine($"Coin: {ii:c}");
         }
     }
 }
