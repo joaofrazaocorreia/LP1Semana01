@@ -7,6 +7,7 @@ namespace Argumentos
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Console.WriteLine("Bye, World!");
         }
     }
 }
