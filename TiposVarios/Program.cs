@@ -21,11 +21,15 @@ namespace TiposVarios
 
             double realNum1 = 4.2;
             float realNum2 = 8.223f;
-            decimal realNum3 = 1.919m; 
+            decimal realNum3 = 1.919m;
+
+            bool condition1 = true;
+            bool condition2 = false;
 
             Console.WriteLine(num1+" "+num2+" "+num3+" "+num4);
             Console.WriteLine(musicNote+" "+clover+" "+sun);
             Console.WriteLine(realNum1+"  "+realNum2+"  "+realNum3);
+            Console.WriteLine(condition1+" "+condition2);
         }
     }
 }
